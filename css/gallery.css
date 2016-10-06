@@ -1,0 +1,11 @@
+#orbit{
+	max-width:850px;
+}
+#contain{
+	max-width:950px;
+}
+#images .image-wrapper{
+	max-width: 80%;
+	max-height:80%;
+	margin:auto;
+}

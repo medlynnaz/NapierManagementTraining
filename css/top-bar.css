@@ -1,0 +1,62 @@
+#top-bar{
+	background-color:#4286f4;
+	overflow:hidden;
+}
+#top-bar a{
+    background:#4286f4;
+}
+#top-bar #buttons a:hover { 
+    background-color: white;
+    color: #4286f4;
+}
+#nav-bar{
+	background-color:white;
+}
+
+#nav-bar a{
+    background: white;
+}
+#nav-bar a:hover { 
+    background-color: #4286f4;
+    color: white;
+}
+#menu{
+	background: #4286f4 !important;
+	color:white;
+}	
+.top-bar .title-area {
+    background: #4286f4 !important;
+}
+#nav-bar .top-bar-section ul li> a {
+    background: white;
+    color: #4286f4;
+}
+#nav-bar .top-bar-section ul li> a:hover {
+    background: #4286f4;
+    color: white;
+}
+#nav-bar .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
+    color:#4286f4;
+    display: block;
+    background: white;
+}
+#current{
+	color:cornflowerblue;
+}
+@media only screen and (min-width: 40.063em) { 
+	#nav-bar{
+		text-align:center;
+	}
+	#nav-bar section{
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width:90.063em){ 
+	#top-bar .title-area{	
+		margin-left:15%;
+	}
+	#top-bar .right{	
+		margin-right:15%;
+	}
+}

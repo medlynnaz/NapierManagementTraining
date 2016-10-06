@@ -1,0 +1,10 @@
+#contain img + div{
+	padding-top:10px;
+	display:none;
+}
+#contain img + div:hover{
+	display:inherit;
+}
+#contain img:hover + div{
+	display:inherit;
+}

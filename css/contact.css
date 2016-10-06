@@ -1,0 +1,12 @@
+p{
+	margin-top:20px;
+}
+#contain .thumbnail{
+	margin-right:30px;
+}
+@media only screen and (max-width: 40em) {
+	#contain .thumbnail{
+		float:none !important;
+		margin-bottom:10px;
+	}
+}

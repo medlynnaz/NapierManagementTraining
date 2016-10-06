@@ -1,0 +1,333 @@
+body {
+	background-color: #eee;
+	font-family: 'fjalla_oneregular', sans-serif;
+}
+/* This is the styling for the top bar (containing the contact us link and social media buttons) */
+.top-bar {
+	position:static;
+	margin:auto;
+	padding:0px;
+	background-color: #4286f4;
+	z-index: 20;
+	}
+.top-bar ul li {
+	background-color:#4286f4;
+}
+.top-bar ul li a {
+    color: #fff; 
+}
+.top-bar-left{
+	margin-left:1%;
+	border-left: 2px solid white;
+	float:left;
+}
+.top-bar-right{
+  margin-right:10%;
+  border-right: 2px solid white;
+  float:right;
+}
+.menu-text {
+  color: #fff; }
+  @media only screen and (max-width: 40em) {
+    .menu-text {
+      display: none !important; } }
+
+@media only screen and (min-width: 40em) {
+  .top-bar .menu:last-child {
+    border-left: 1px solid #4e4e4e; }
+
+  .top-bar .menu:first-child {
+    border-left: none; }
+
+/* Below is styling only for the social media icons */
+	/* Styles all social media buttons */
+.split.button {
+	background: #820672;
+	text-transform: uppercase;
+	border: none;
+	}
+/* Styles individual Search button */
+	.split.button.search span:after {
+		position: relative;
+		top: 5px;
+		left: 6px;
+        font-family: "foundation-icons";
+        content: "\f18d";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem;	
+	}
+	.split.button.search span:hover {	
+		color: #820672;
+	}
+	.split.button.search:hover{
+		background:white;
+	}
+/* End Search button style */
+	/* Mail Button Style */
+    .split.button.mail span:after {
+		position: relative;
+		top: 5px;
+		left: 6px;
+        font-family: "foundation-icons";
+        content: "\f16d";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem;	
+	}
+	.split.button.mail span:hover {	
+		color: #820672;
+	}
+	.split.button.mail:hover{
+		background:white;
+	}
+/* End Mail button style */
+	/* Mail Facebook Style */
+    .split.button.facebook span:after {
+		position: relative;
+		top: 5px;
+		left: 6px;
+        font-family: "foundation-icons";
+        content: "\f1c4";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem; }
+	.split.button.facebook:hover{
+		background:#3b5998;
+	}
+/* End Facebook button style */
+	/* Twitter Button Style */
+    .split.button.twitter span:after {
+		position: relative;
+		top: 5px;
+		left: 6px;
+        border: none;
+        font-family: "foundation-icons";
+        content: "\f1e4";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem; }
+	.split.button.twitter:hover{
+		background:#0084B4;
+	}
+/* End Twitter button style */
+	/* Linkedin Button Style */
+    .split.button.linkedin span:after {
+		position: relative;
+		top: 5px;
+		left: 6px;
+        border: none;
+        font-family: "foundation-icons";
+        content: "\f1d0";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem; }
+	.split.button.linkedin:hover{
+		background:#2672ae;
+	}
+  .split.button.left-icon {
+    text-align: right; }
+    .split.button.left-icon span {
+      left: 0; }
+/* End styles for social media buttons */
+
+/*Navigation Bar begins here*/
+/* Medium-Up Navigation */
+#nav-container{
+	position:static;
+	background-color: white;
+	height:100px;
+	margin:auto;
+	padding:0px;
+	background-color:white;
+	text-transform: uppercase;
+	z-index: 1;
+}
+
+@media only screen and (min-width: 40rem) {    
+.Nav-bar{
+	margin-right:2%;
+	margin-left:10%;
+}
+.Nav-bar #logo{
+	width:400px;
+	float:left;
+	height:inherit;
+	margin-right: 20px;
+}
+.Nav-bar ul {
+    float: left; 
+}
+
+.Nav-bar li{
+	height:100px;
+}
+
+.menu > li{
+	text-align:center;
+}
+
+.Nav-bar a{
+	color:#000000;
+	font-weight: 500;
+	margin-left: 5px;
+	display:block;
+}
+.is-dropdown-submenu-parent.is-right-arrow > a::after {
+	content: none;
+}
+
+/* Navigation Bar Ends here*/
+
+/* BackgroundImageForFrontPage starts here */
+.hero {
+  background: url("../img/background.jpg") no-repeat center center;
+  background-size:cover;
+  opacity: 0.5;
+  top: 100em;
+  height: 70vh; }
+  .hero:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+     opacity: .8;
+	 }
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .hero h1 {
+    color: #000000;
+	background-color: white;
+    font-size: 60px;
+    line-height: 1.75em;
+    letter-spacing: -0.025em;
+    font-weight: 900;
+    text-align: center; }
+  .hero p {
+    color: #000000;
+	font-size: 40px;
+	background-color: white;
+    line-height: 1.75em;
+	letter-spacing: -0.025em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem; }
+ 
+  @media only screen and (min-width: 40.063em) {
+    .hero .tech-img {
+      height: 18rem;
+      width: 18rem; }
+    .hero h1 {
+      padding-top: 4.5rem;
+      text-align: right;
+      font-size: 2.5rem; }
+    .hero p {
+      text-align: right; } }
+
+/* BackgroundImageForFrontPage ends here */
+
+
+/* Footer Begins here */
+ #footer-base {
+	position:relative;
+    background-color: #820672;
+    font-size: 1.2rem;
+	padding: 1rem;
+	height:160px;
+}
+.footer-connect p.copywrite {
+	color: #820672;
+    font-size: 0.875rem; 
+	text-align: right;
+}
+
+#footer-connect p.copywrite{
+     color: white;
+	 font-size:0.7rem;
+}
+#footer-connect{
+	height:140px;
+	z-index:30;
+	margin-left:10%;
+	float:left;
+}
+h5{
+    display: block;
+    font-size: 0.83em;
+    font-weight: bold;
+    color: white;
+}
+
+i {
+	font-size: 2.5rem; 
+}
+
+.icon-button {
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  background: white;
+   }
+  .icon-button span {
+    display: block;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all 0.3s; }
+  .icon-button:hover span {
+    display: block;
+    border-radius: 3.6rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: -1.8rem; }
+  .icon-button i {
+    background: none;
+    height: 3.6rem;
+    width: 3.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    line-height: 3.6rem;
+    transition: all 0.3s; }
+
+.icon-button .fi-social-twitter {
+  color: #4099ff; }
+
+.icon-button .fi-social-facebook {
+  color: #3b5998; }
+
+.icon-button .fi-social-linkedin {
+  color: #007bb5; }
+
+.icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-social-linkedin {
+  color: #820672;
+  font-size: 2.6rem;
+  line-height: 3.9rem; }
+
+img {
+  width: 120;
+  height: 80;
+  background-color: #820672;
+}
+/* footer ends here*/
+/* Ticker Tape css*/
+#ticker-tape{
+	position: absolute;
+	height:100px;
+	width: inherit;
+}
+/* Ticker Tape css ends here*/

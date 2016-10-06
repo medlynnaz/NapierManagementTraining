@@ -1,0 +1,88 @@
+/* css for the main template */
+body{
+	font-family: 'Gotham SSm A','Gotham SSm B', 'fjalla_oneregular', sans-serif;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+	color:white;
+}
+#body .row{
+   margin-left: auto;
+   margin-right: auto;
+}
+body .inner {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+#logo{
+	padding-right:10px;
+}
+
+div .column {
+         max-width:300px;
+		 margin:auto;
+}
+
+#body  h2{
+	line-height: 1.05em;
+	margin-bottom: 1em;
+	margin-top: 0.4em;
+	color: #4286f4;
+	font-weight: 700;
+	letter-spacing: -0.02em
+}
+
+#content{
+	padding-top:20px;
+	height: 70vh;
+	overflow-x:scroll;
+	border-top: 1px solid aqua;
+	z-index:4;
+	width:100%;
+	background-color:ghostwhite;
+}
+#content h3{
+	color:#4286f4;
+}
+#content h3 small{
+	color:lightblue;
+	margin-bottom:30px;
+}
+#title{
+	font-weight:bold;
+}
+#contain{
+	max-width:850px;
+}
+#contain small{
+	margin-left:10px;
+	margin-top:10px;
+	display:block;
+}
+
+#contain a{
+	color:#4286f4;
+}
+#contain a:visited{
+	color:cornflowerblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
